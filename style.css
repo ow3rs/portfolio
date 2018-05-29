@@ -1,0 +1,93 @@
+html{
+  height: 100%;
+  background-image: url('https://images.pexels.com/photos/962095/pexels-photo-962095.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+}  
+#banner{
+  padding-top:22%;
+  font-family:'VT323', monospace;
+  font-size:35px;
+  display:flex;
+  justify-content:center;
+  color:#9370DB;
+}
+
+#heading{
+  padding-top:22%;
+  font-family:'Oswald', sans-serif;;
+  display:flex;
+  justify-content:space-around;
+  color:#0066CC;
+ } 
+.gif {
+  display: flex;
+  justify-content: center;
+}
+ 
+ .navbar {
+   display: flex;
+   justify-content:space-around;
+   background-color: white;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%; 
+ }
+ 
+ .navbar a {
+   float: left;
+   display: block;
+   text-align: center;
+   padding:14px 16px;
+   text-decoration:none;
+   color:#9370DB;
+   font-family:'montserrat', sans-serif;
+  }
+ 
+ .navbar a:hover{
+   color:white;
+   background:#9370DB;
+ }
+ 
+ about-content{
+   display:flex;
+   justify-content:space-around;
+   margin-top: 22%;
+   flex-direction:row
+ }
+ 
+ img{
+   border-radius:50%;
+   border: solid 5px #9370DB;
+   }
+   
+   .my-description{
+   background:white;
+   margin:3%;
+   padding:4%;
+   font-family:'Montserrat',sans-serif;
+}
+ 
+ .project-container{
+   margin-top:20%;
+   display: flex;
+   width: 100%;
+   height:100%;
+   justify-content: space-between;
+ }
+ 
+ span{
+   background:#9370DB;
+   width: 30%;
+   height:60%;
+   margin:2%;
+   padding:2%;
+   font-family:'Montserrat',sans-serif;
+   align-items: center;
+ }
+ 
+ .feature{
+   display:flex;
+   flex-direction:row;
+ }
+ 
